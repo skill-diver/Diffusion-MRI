@@ -1,0 +1,104 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.10/dist-packages/visdom/server/__main__.py", line 16, in <module>
+    download_scripts_and_run()
+  File "/usr/local/lib/python3.10/dist-packages/visdom/server/run_server.py", line 236, in download_scripts_and_run
+    main()
+  File "/usr/local/lib/python3.10/dist-packages/visdom/server/run_server.py", line 220, in main
+    start_server(
+  File "/usr/local/lib/python3.10/dist-packages/visdom/server/run_server.py", line 55, in start_server
+    app.listen(port, max_buffer_size=1024**3)
+  File "/usr/local/lib/python3.10/dist-packages/tornado/web.py", line 2207, in listen
+    server.listen(
+  File "/usr/local/lib/python3.10/dist-packages/tornado/tcpserver.py", line 183, in listen
+    sockets = bind_sockets(
+  File "/usr/local/lib/python3.10/dist-packages/tornado/netutil.py", line 162, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 98] Address already in use
+Checking for scripts.
+It's Alive!
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.10/dist-packages/visdom/server/__main__.py", line 16, in <module>
+    download_scripts_and_run()
+  File "/usr/local/lib/python3.10/dist-packages/visdom/server/run_server.py", line 236, in download_scripts_and_run
+    main()
+  File "/usr/local/lib/python3.10/dist-packages/visdom/server/run_server.py", line 220, in main
+    start_server(
+  File "/usr/local/lib/python3.10/dist-packages/visdom/server/run_server.py", line 55, in start_server
+    app.listen(port, max_buffer_size=1024**3)
+  File "/usr/local/lib/python3.10/dist-packages/tornado/web.py", line 2207, in listen
+    server.listen(
+  File "/usr/local/lib/python3.10/dist-packages/tornado/tcpserver.py", line 183, in listen
+    sockets = bind_sockets(
+  File "/usr/local/lib/python3.10/dist-packages/tornado/netutil.py", line 162, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 98] Address already in use
+Checking for scripts.
+It's Alive!
+INFO:root:Application Started
+INFO:root:Working directory: /root/.visdom
+INFO:tornado.access:200 POST /env/main (127.0.0.1) 0.53ms
+INFO:tornado.access:101 GET /vis_socket (127.0.0.1) 0.46ms
+INFO:root:Opened visdom socket from ip: 127.0.0.1
+INFO:tornado.access:200 POST /env/main (127.0.0.1) 0.52ms
+INFO:tornado.access:101 GET /vis_socket (127.0.0.1) 0.39ms
+INFO:root:Opened visdom socket from ip: 127.0.0.1
+INFO:tornado.access:200 POST /env/main (127.0.0.1) 0.68ms
+INFO:tornado.access:101 GET /vis_socket (127.0.0.1) 0.42ms
+INFO:root:Opened visdom socket from ip: 127.0.0.1
+INFO:tornado.access:200 POST /env/main (127.0.0.1) 0.49ms
+INFO:tornado.access:101 GET /vis_socket (127.0.0.1) 0.39ms
+INFO:root:Opened visdom socket from ip: 127.0.0.1
+INFO:tornado.access:200 POST /env/main (127.0.0.1) 0.46ms
+INFO:tornado.access:101 GET /vis_socket (127.0.0.1) 0.43ms
+INFO:root:Opened visdom socket from ip: 127.0.0.1
+INFO:tornado.access:200 POST /env/main (127.0.0.1) 0.45ms
+INFO:tornado.access:101 GET /vis_socket (127.0.0.1) 0.39ms
+INFO:root:Opened visdom socket from ip: 127.0.0.1
+INFO:tornado.access:200 POST /env/main (127.0.0.1) 0.48ms
+INFO:tornado.access:101 GET /vis_socket (127.0.0.1) 0.40ms
+INFO:root:Opened visdom socket from ip: 127.0.0.1
+INFO:tornado.access:200 POST /env/main (127.0.0.1) 0.46ms
+INFO:tornado.access:101 GET /vis_socket (127.0.0.1) 0.41ms
+INFO:root:Opened visdom socket from ip: 127.0.0.1
+INFO:tornado.access:200 POST /env/main (127.0.0.1) 0.49ms
+INFO:tornado.access:101 GET /vis_socket (127.0.0.1) 0.40ms
+INFO:root:Opened visdom socket from ip: 127.0.0.1
+INFO:tornado.access:200 POST /env/main (127.0.0.1) 0.46ms
+INFO:tornado.access:101 GET /vis_socket (127.0.0.1) 0.39ms
+INFO:root:Opened visdom socket from ip: 127.0.0.1
+INFO:tornado.access:200 POST /env/main (127.0.0.1) 0.49ms
+INFO:tornado.access:101 GET /vis_socket (127.0.0.1) 0.40ms
+INFO:root:Opened visdom socket from ip: 127.0.0.1
+INFO:tornado.access:200 POST /env/main (127.0.0.1) 0.49ms
+INFO:tornado.access:101 GET /vis_socket (127.0.0.1) 0.40ms
+INFO:root:Opened visdom socket from ip: 127.0.0.1
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.10/dist-packages/visdom/server/__main__.py", line 16, in <module>
+    download_scripts_and_run()
+  File "/usr/local/lib/python3.10/dist-packages/visdom/server/run_server.py", line 236, in download_scripts_and_run
+    main()
+  File "/usr/local/lib/python3.10/dist-packages/visdom/server/run_server.py", line 220, in main
+    start_server(
+  File "/usr/local/lib/python3.10/dist-packages/visdom/server/run_server.py", line 55, in start_server
+    app.listen(port, max_buffer_size=1024**3)
+  File "/usr/local/lib/python3.10/dist-packages/tornado/web.py", line 2207, in listen
+    server.listen(
+  File "/usr/local/lib/python3.10/dist-packages/tornado/tcpserver.py", line 183, in listen
+    sockets = bind_sockets(
+  File "/usr/local/lib/python3.10/dist-packages/tornado/netutil.py", line 162, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 98] Address already in use
+Checking for scripts.
+It's Alive!
